@@ -1,0 +1,14 @@
+my-ui/
+  ├── public/               # Public files (e.g., index.html, icons)
+  │   └── user-avatar.png   # Placeholder graphic for user avatar
+  ├── src/                  # Source code for the UI
+  │   ├── components/       # Reusable components
+  │   │   ├── Chat.js       # Main chat interface
+  │   │   ├── Sidebar.js    # Sidebar component for user info, graphics
+  │   ├── api/              # API functions
+  │   │   └── chatApi.js    # API calls to interact with backend services
+  │   ├── styles/           # CSS files
+  │   │   └── SharedStyles.css # Centralized CSS file for styling
+  │   ├── App.js            # Main application component
+  │   ├── index.js          # Entry file to render React
+  └── package.json          # Project metadata and dependencies
